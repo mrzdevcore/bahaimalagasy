@@ -1,0 +1,139 @@
+header {
+  background: $white;
+  box-shadow: 0 3px 5px $darkgrey;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  margin-top: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+	nav {
+		margin: auto;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			padding: 0 15px;
+			vertical-align: top;
+			a {
+        color: $text;
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+				&:hover {
+					color: $primary;
+        }
+
+        @include respond-to('large') {
+          text-transform: uppercase;
+        }
+
+        &[data-active-menu="True"] {
+          border-bottom: 2px solid $primary;
+          padding-bottom: 26px;
+        }
+			}
+    }
+
+    .main-logo {
+      position: absolute;
+      left: calc(50% - 26px);
+      transition:  all 0.5s linear;
+
+      a {
+        background-color: transparent;
+        background-image: url(../images/logo.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% auto;
+        color: transparent;
+        display: block;
+        height: 52px;
+        line-height: 52px;
+        overflow-x: hidden;
+        text-indent: 120px;
+        transition:  all 0.3s linear;
+        width: 52px;
+      }
+
+      &--small {
+        top: -15px;
+
+        @include respond-to('large') {
+          top: -30px;
+        }
+        a {
+          transform: scale(0.6);
+
+          @include respond-to('large') {
+            transform: scale(0.5);
+          }
+        }
+      }
+    }
+
+    .nav-left {
+      display: inline;
+      position: absolute;
+			right: calc(50% + 94px);
+
+			@include respond-to('large') {
+				right: calc(50% + 99px);
+			}
+    }
+    .nav-right {
+      display: inline;
+      position: absolute;
+      left: calc(50% + 95px);
+    }
+
+    .nav-left, .nav-right {
+      @include respond-to('medium') {
+        display: none;
+      }
+    }
+
+  }
+
+  .nav-mobile {
+    display: none;
+    margin-top: 48px;
+    padding-top: 20px;
+    background: #f1f5f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
+    @include respond-to('large') {
+      display: none;
+    }
+
+    &__list {
+      text-transform: uppercase;
+      text-decoration: none;
+      border-bottom: 1px groove $text;
+    }
+
+    &__link {
+      text-decoration: none;
+      color: $text;
+      font-weight: 700;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .show {
+    display: block;
+  }
+}
+
+.transparent {
+  background: transparent;
+  box-shadow: none;
+}
+

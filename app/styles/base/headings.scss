@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	//@include transition(all, 0.3s, ease-in-out);
+}
+
+body {
+	background-color: $white;
+	color: $text;
+	font-family: $font_normal, sans-serif;
+	font-size: 18px;
+	height: 100%;
+}
+.wrapper {
+	margin: auto;
+	max-width: $breakpoint-large;
+}
+
+ul {
+	list-style-type: none;
+}
+#header2-8 h1 {
+    @include respond-to('small') {
+        font-size: 20px;
+    }
+}

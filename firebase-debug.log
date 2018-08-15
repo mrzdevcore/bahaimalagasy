@@ -1,53 +1,80 @@
-[debug] [2018-08-15T15:47:57.375Z] ----------------------------------------------------------------------
-[debug] [2018-08-15T15:47:57.378Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mmarotsa.BBDO\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 7001
-[debug] [2018-08-15T15:47:57.378Z] CLI Version:   3.18.4
-[debug] [2018-08-15T15:47:57.379Z] Platform:      win32
-[debug] [2018-08-15T15:47:57.379Z] Node Version:  v8.11.1
-[debug] [2018-08-15T15:47:57.379Z] Time:          Wed Aug 15 2018 19:47:57 GMT+0400 (Mauritius Standard Time)
-[debug] [2018-08-15T15:47:57.379Z] ----------------------------------------------------------------------
+[debug] [2018-08-15T19:23:01.197Z] ----------------------------------------------------------------------
+[debug] [2018-08-15T19:23:01.201Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mmarotsa.BBDO\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -p 7001
+[debug] [2018-08-15T19:23:01.201Z] CLI Version:   3.18.4
+[debug] [2018-08-15T19:23:01.201Z] Platform:      win32
+[debug] [2018-08-15T19:23:01.201Z] Node Version:  v8.11.1
+[debug] [2018-08-15T19:23:01.202Z] Time:          Wed Aug 15 2018 23:23:01 GMT+0400 (Mauritius Standard Time)
+[debug] [2018-08-15T19:23:01.202Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-08-15T15:47:57.392Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-08-15T15:47:57.393Z] > authorizing via signed-in user
-[debug] [2018-08-15T15:47:57.395Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bahaimalagasy  
+[debug] [2018-08-15T19:23:01.222Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-15T19:23:01.223Z] > authorizing via signed-in user
+[debug] [2018-08-15T19:23:01.228Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bahaimalagasy  
   
- Wed Aug 15 2018 19:47:57 GMT+0400 (Mauritius Standard Time)
-[debug] [2018-08-15T15:47:59.250Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-15T15:47:59.251Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bahaimalagasy/tokens  
+ Wed Aug 15 2018 23:23:01 GMT+0400 (Mauritius Standard Time)
+[debug] [2018-08-15T19:23:03.255Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T19:23:03.256Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bahaimalagasy/tokens  
   
- Wed Aug 15 2018 19:47:59 GMT+0400 (Mauritius Standard Time)
-[debug] [2018-08-15T15:48:00.425Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-15T15:48:00.426Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bahaimalagasy  
+ Wed Aug 15 2018 23:23:03 GMT+0400 (Mauritius Standard Time)
+[debug] [2018-08-15T19:23:04.398Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T19:23:04.399Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bahaimalagasy  
   
- Wed Aug 15 2018 19:48:00 GMT+0400 (Mauritius Standard Time)
-[debug] [2018-08-15T15:48:02.882Z] <<< HTTP RESPONSE 200
+ Wed Aug 15 2018 23:23:04 GMT+0400 (Mauritius Standard Time)
+[debug] [2018-08-15T19:23:06.403Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'C:\workspace\perso\bahaimalagasy\website'...
+[info] === Serving from 'C:\workspace\perso\bm-website'...
 [info] 
 [info] i  functions: Preparing to emulate functions.
-[debug] [2018-08-15T15:48:03.827Z] Fetching environment
-[debug] [2018-08-15T15:48:03.831Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/624163856306:getServerAppConfig  
+[debug] [2018-08-15T19:23:07.528Z] Fetching environment
+[debug] [2018-08-15T19:23:07.532Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/624163856306:getServerAppConfig  
   
- Wed Aug 15 2018 19:48:03 GMT+0400 (Mauritius Standard Time)
-[debug] [2018-08-15T15:48:03.831Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/624163856306/clients/_:getWebAppConfig  
+ Wed Aug 15 2018 23:23:07 GMT+0400 (Mauritius Standard Time)
+[debug] [2018-08-15T19:23:07.532Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/624163856306/clients/_:getWebAppConfig  
   
- Wed Aug 15 2018 19:48:03 GMT+0400 (Mauritius Standard Time)
-[debug] [2018-08-15T15:48:04.824Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-15T15:48:04.824Z] Starting @google-cloud/functions-emulator
-[debug] [2018-08-15T15:48:05.256Z] <<< HTTP RESPONSE 200
+ Wed Aug 15 2018 23:23:07 GMT+0400 (Mauritius Standard Time)
+[debug] [2018-08-15T19:23:08.555Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:7001
 
-[debug] [2018-08-15T15:48:07.371Z] Parsing function triggers
+[debug] [2018-08-15T19:23:08.828Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T19:23:08.828Z] Starting @google-cloud/functions-emulator
+[debug] [2018-08-15T19:23:11.878Z] Parsing function triggers
 [info] +  functions: website: http://localhost:7002/bahaimalagasy/us-central1/website
 [info] [hosting] Rewriting / to local function website
-[info] [hosting] Rewriting / to local function website
-[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
-[info] [hosting] Rewriting / to local function website
 [info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
 [info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
 [info] [hosting] Rewriting / to local function website
 [info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
 [info] [hosting] Rewriting / to local function website
 [info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
-[info] Shutting down...
-[info] Shutting down...
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
+[info] [hosting] Rewriting / to local function website
+[info] [hosting] Rewriting /assets/puritym/css/style.css.map to local function website
