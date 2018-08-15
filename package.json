@@ -12,7 +12,8 @@
     "serve": "concurrently -k -m \"firebase serve -p 7001\"  \"webpack --watch\"",
     "serve:bed": "firebase serve -p 7001",
     "serve:fed": "webpack --watch",
-    "dev": "start yarn serve:bed && start yarn serve:fed"
+    "dev": "start yarn serve:bed && start yarn serve:fed",
+    "deploy": "yarn build:functions && yarn build:fed && firebase deploy"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
